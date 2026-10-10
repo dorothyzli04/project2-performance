@@ -24,34 +24,46 @@ body {
     color: rgb(78, 13, 13);
 }
 
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    font-family: Dorothys Daily Doodads;
+.abs {
+    position: absolute;
+}
+.doodads {
+
+font-family: Dorothys Daily Doodads;
     font-size: 300px;
     font-variation-settings: "STIL" 0;
     animation-name: container-animation;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-direction: alternate;
-    color:rgb(78, 13, 13); 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    color:rgb(78, 13, 13);
+    
 }
 
 @keyframes container-animation {
-	0% {
-		font-variation-settings: "STIL" 0;
-	}
-	25% {
-		font-variation-settings: "STIL" 523;
-	}
-	50% {
-		font-variation-settings: "STIL" 0;
-	}
-	75% {
-		font-variation-settings: "STIL" 523;
-	}
-	100% {
-		font-variation-settings: "STIL" 0;
-	}
+    0% {
+        font-variation-settings: "STIL" 0;
+    }
+    25% {
+        font-variation-settings: "STIL" 523;
+    }
+    50% {
+        font-variation-settings: "STIL" 0;
+    }
+    75% {
+        font-variation-settings: "STIL" 523;
+    }
+    100% {
+        font-variation-settings: "STIL" 0;
+    }
+}
+
+.a {
+    left: 100px;
+}
+
+.b {
+    left: 300px;
+    top: 300px;
 }
