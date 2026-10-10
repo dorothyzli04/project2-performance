@@ -1,0 +1,57 @@
+@font-face {
+
+    font-family: "New Spirit";
+    src: url("new-spirit-light-condensed.otf") format("true-type");
+}
+@font-face {
+
+    font-family: "Dorothys Daily Doodads";
+    src: url("dorothys-daily-doodads-vf.ttf") format("truetype");
+}
+body {
+    background-color:rgb(238, 134, 238);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.title {
+    font-family: New Spirit;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(78, 13, 13);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-family: Dorothys Daily Doodads;
+    font-size: 300px;
+    font-variation-settings: "STIL" 0;
+    animation-name: container-animation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+    color:rgb(78, 13, 13); 
+}
+
+@keyframes container-animation {
+	0% {
+		font-variation-settings: "STIL" 0;
+	}
+	25% {
+		font-variation-settings: "STIL" 523;
+	}
+	50% {
+		font-variation-settings: "STIL" 0;
+	}
+	75% {
+		font-variation-settings: "STIL" 523;
+	}
+	100% {
+		font-variation-settings: "STIL" 0;
+	}
+}
