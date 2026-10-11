@@ -19,11 +19,17 @@ body {
 
 .title {
     font-family: New Spirit;
-    text-align: center;
-    font-size: 100px;
+    position: fixed;
+    font-size: 70px;
     color: rgb(78, 13, 13);
 }
 
+.paragraph {
+    font-family: New Spirit;
+    position: fixed;
+    font-size: 30px;
+    color: rgb(78, 13, 13);
+}
 .abs {
     position: absolute;
 }
@@ -59,11 +65,561 @@ font-family: Dorothys Daily Doodads;
     }
 }
 
+@keyframes rotate {
+	0% {
+		transform:rotate(0deg);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}
+
 .a {
-    left: 100px;
+    left: 800px;
+    top: 40px;
+    transition: color 0.2s;
+}
+
+.a:hover {
+    color: transparent;
+    background-image: url("dorito.png");
+    background-size: 185px 185px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.a:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
 }
 
 .b {
-    left: 300px;
-    top: 300px;
+    left: 1200px;
+    top: 100px;
+    transition: color 0.2s;
 }
+
+.b:hover {
+    color: transparent;
+    background-image: url("beanie.png");
+    background-size: 185px 185px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.b:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.c {
+    left: 1000px;
+    top: 300px;
+    transition: color 0.2s;
+}
+
+.c:hover {
+    color: transparent;
+    background-image: url("water.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.c:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.d {
+    left: 800px;
+    top: 400px;
+    transition: color 0.2s;
+}
+
+.d:hover {
+    color: transparent;
+    background-image: url("shoe.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.d:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.e {
+    left: 1300px;
+    top: 500px;
+    transition: color 0.2s;
+}
+
+.e:hover {
+    color: transparent;
+    background-image: url("pencil.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.e:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+
+.f {
+    left: 700px;
+    top: 700px;
+    transition: color 0.2s;
+}
+
+.f:hover {
+    color: transparent;
+    background-image: url("sun3.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.f:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.g {
+    left: 1000px;
+    top: 600px;
+    transition: color 0.2s;
+}
+
+.g:hover {
+    color: transparent;
+    background-image: url("cloud.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;   
+}
+
+.g:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.h {
+    left: 1200px;
+    top: 860px;
+    transition: color 0.2s;
+}
+
+.h:hover {
+    color: transparent;
+    background-image: url("tomato.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.h:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.i {
+    left: 850px;
+    top: 950px;
+    transition: color 0.2s;
+}
+
+.i:hover {
+    color: transparent;
+    background-image: url("egg.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.i:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.j {
+    left: 1300px;
+    top: 1150px;
+    transition: color 0.2s;
+}
+
+.j:hover {
+    color: transparent;
+    background-image: url("cat.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.j:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.k {
+    left: 700px;
+    top: 1130px;
+    transition: color 0.2s;
+}
+
+.k:hover {
+    color: transparent;
+    background-image: url("dollar2.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.k:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.l {
+    left: 1000px;
+    top: 1280px;
+    transition: color 0.2s;
+}
+
+.l:hover {
+    color: transparent;
+    background-image: url("jorts.png");
+    background-size: 390px 390px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.l:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.m {
+    left: 1250px;
+    top: 1500px;
+    transition: color 0.2s;
+}
+
+.m:hover {
+    color: transparent;
+    background-image: url("iphone.png");
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.m:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.n {
+    left: 730px;
+    top: 1480px;
+    transition: color 0.2s;
+}
+
+.n:hover {
+    color: transparent;
+    background-image: url("apple.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.n:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.o {
+    left: 1000px;
+    top: 1700px;
+    transition: color 0.2s;
+}
+
+.o:hover {
+    color: transparent;
+    background-image: url("umbrella.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.o:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.p {
+    left: 1300px;
+    top: 1870px;
+    transition: color 0.2s;
+}
+
+.p:hover {
+    color: transparent;
+    background-image: url("moon.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.p:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.q {
+    left: 770px;
+    top: 1920px;
+    transition: color 0.2s;
+}
+
+.q:hover {
+    color: transparent;
+    background-image: url("icecream.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.q:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.r {
+    left: 1100px;
+    top: 2100px;
+    transition: color 0.2s;
+}
+
+.r:hover {
+    color: transparent;
+    background-image: url("flower.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.r:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.s {
+    left: 700px;
+    top: 2200px;
+    transition: color 0.2s;
+}
+
+.s:hover {
+    color: transparent;
+    background-image: url("tissuebox.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.s:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.t {
+    left: 900px;
+    top: 2400px;
+    transition: color 0.2s;
+}
+
+.t:hover {
+    color: transparent;
+    background-image: url("boba.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.t:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.u {
+    left: 1300px;
+    top: 2300px;
+    transition: color 0.2s;
+}
+
+.u:hover {
+    color: transparent;
+    background-image: url("clock.png");
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate; 
+}
+
+.u:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.v {
+    left: 1150px;
+    top: 2560px;
+    transition: color 0.2s;
+}
+
+.v:hover {
+    color: transparent;
+    background-image: url("shirt.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.v:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.w {
+    left: 800px;
+    top: 2700px;
+    transition: color 0.2s;
+}
+
+.w:hover {
+    color: transparent;
+    background-image: url("sketchbook.png");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.w:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.x {
+    left: 1300px;
+    top: 2800px;
+    transition: color 0.2s;
+}
+
+.x:hover {
+    color: transparent;
+    background-image: url("toothpaste.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.x:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.y {
+    left: 1000px;
+    top: 3000px;
+    transition: color 0.2s;
+}
+
+.y:hover {
+    color: transparent;
+    background-image: url("brush.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.y:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+.z {
+    left: 700px;
+    top: 3100px;
+    transition: color 0.2s;
+}
+
+.z:hover {
+    color: transparent;
+    background-image: url("totebag.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: rotate 3s infinite alternate;
+}
+
+.z:active {
+    background-image: none;
+    color:rgb(78, 13, 13)
+}
+
+@keyframes example-animation {
+    0% {
+        background-color: rgb(238, 134, 238);
+    }
+    25% {
+        background-color: rgb(255, 108, 78);
+    }
+	50% {
+		background-color: rgb(104, 104, 255);
+	}
+    75% {
+        background-color: rgb(145, 255, 85);
+    }
+	100% {
+		background-color: rgb(255, 252, 72);
+	}
+}
+
+@media (max-height: 700px) {
+	body {
+	animation-name: example-animation;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+	}
+}
+
